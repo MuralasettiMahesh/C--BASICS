@@ -1,27 +1,14 @@
-//printing all arithmatic operations:
+//area and perimeter of a suare
 #include<stdio.h>
 void main()
 {
-	int a,b,s,d,p,m;
-	a=10;
-	b=2;
-	
-	s=a+b;
-	printf("sum of %d and %d is %d\n",a,b,s);
-	
-	d=a-b;
-	printf("differance of %d and %d is %d\n",a,b,d);
-	
-	p=a*b;
-	printf("product of %d and %d is %d\n",a,b,p);
-	
-	m=a%b;
-	printf("modular divison of %d and %d is %d\n",a,b,m);
-	
-	
-	
-	
-		
-	
-	
+	int a,s,p;
+	printf("enter side");
+	scanf("%d",&s);
+	a=s*s;
+
+	p=4*s;
+	printf("area of suare is %d\n",a);
+	printf("perimeter of suare is %d",p);
 }
+
